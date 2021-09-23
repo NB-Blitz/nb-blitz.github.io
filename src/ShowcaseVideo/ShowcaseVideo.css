@@ -1,0 +1,22 @@
+.ShowcaseVideo video
+{
+    width:100vw;
+    position: absolute;
+    z-index: -100;
+}
+
+#videooverlay
+{
+    text-align: center;
+    color: white;
+    filter: drop-shadow(0px 2px 5px #000000);
+}
+    #videooverlay h1
+    {
+        font-weight: 600 !important;
+    }
+    #videooverlay a
+    {
+        color: white;
+        text-decoration: none;
+    }

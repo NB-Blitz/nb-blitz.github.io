@@ -1,0 +1,14 @@
+.Header {
+    border-top: 4px solid #F4CC00;
+    filter: drop-shadow(0px 2px 5px #afafaf);
+    background-color: white;
+}
+
+.btn-nav {
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.btn-nav:hover {
+    color: #d4b207;
+}
