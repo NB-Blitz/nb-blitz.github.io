@@ -30,10 +30,10 @@ function Footer() {
         </div>
         <div className="row">
             <div className="col-sm-12 text-center p-3">
-                <a className="btn-foot ms-3" href="/">Home</a>
-                <a className="btn-foot ms-3" href="/Sponsors">Sponsors</a>
-                <a className="btn-foot ms-3" href="/History">History</a>
-                <a className="btn-foot ms-3" href="/Mentors">Mentors</a>
+                <a className="btn-foot ms-3" href="/#/">Home</a>
+                <a className="btn-foot ms-3" href="/#/Sponsors">Sponsors</a>
+                <a className="btn-foot ms-3" href="/#/History">History</a>
+                <a className="btn-foot ms-3" href="/#/Mentors">Mentors</a>
                 <a className="btn-foot ms-3" href="mailto:5148nbblitz@gmail.com">Contact Us</a>
             </div>
         </div>
