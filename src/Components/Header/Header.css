@@ -12,3 +12,7 @@
 .btn-nav:hover {
     color: #d4b207;
 }
+
+.navbar-brand {
+    margin-left: 20%;
+}

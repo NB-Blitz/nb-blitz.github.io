@@ -1,0 +1,14 @@
+.History-Header {
+    text-align: center;
+    background-color: #f2f2f2;
+    filter: drop-shadow(0px 2px 5px #afafaf);
+    position: relative;
+    z-index: -100;
+}
+
+
+.History-img {
+    width:80%;
+    margin-left: 10%;
+    margin-top: 40px;
+}
