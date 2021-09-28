@@ -17,7 +17,7 @@ class NotFound extends React.Component
                         <br />
                         <h2><b>Page Not Found</b></h2>
                         <br />
-                        <a className="btn btn-warning mb-5">Back to Home</a>
+                        <a className="btn btn-warning mb-5" href="/">Back to Home</a>
                     </div>
                 </div>
 
