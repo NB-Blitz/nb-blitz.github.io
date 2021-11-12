@@ -1,15 +1,16 @@
 .Footer {
-    border-bottom: 4px solid #F4CC00;
-    filter: drop-shadow(0px -2px 5px #afafaf);
-    background-color: rgb(227, 227, 227);
+    border-top: 4px solid #F4CC00;
+    background-color: #171717;
+    font-family: 'Righteous', sans-serif;
 }
 
 .btn-foot {
-    color: rgb(65, 65, 65);
+    color: #fff;
     font-size: 16px;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 100ms;
 }
 .btn-foot:hover {
     color: #d4b207;
-    text-decoration: underline;
 }

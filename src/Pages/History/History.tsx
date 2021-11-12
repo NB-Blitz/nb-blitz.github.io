@@ -3,8 +3,7 @@ import './History.css';
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
 
-class History extends React.Component
-{
+class History extends React.Component {
     render() {
         return (
             <div className="History">
@@ -20,14 +19,155 @@ class History extends React.Component
                         </p>
                     </div>
                 </div>
-                
+
+                {/* Rapid React */}
+
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <h1><b>Rapid React</b></h1>
+                        <h5>2021-2022</h5>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-5 offset-sm-1">
+                        <div className="card card-body m-2">
+                            <h4><b>Wisconsin Regional</b></h4>
+                            <h5>March 23 - 26, 2021</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4><b>Seven Rivers Regional</b></h4>
+                            <h5>March 30 - April 2, 2021</h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-5">
+                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                    </div>
+                </div>
+
+                {/* Infinite Recharge II */}
+
+                <div className="row">
+                    <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
+                        <h1><b>Infinite Recharge II</b></h1>
+                        <h5>2019-2020</h5>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-5 offset-sm-1">
+                        <div className="card card-body m-2">
+                            <h4><b>Infinite Recharge at Home</b></h4>
+                            <h5>Boron Group</h5>
+                            <h5>Rank 22</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4><b>Game Design Challenge</b></h4>
+                            <h5>Potassium Group</h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-5">
+                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                    </div>
+                </div>
+
+                {/* Infinite Recharge I */}
+
+                <div className="row">
+                    <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
+                        <h1><b>Infinite Recharge I</b></h1>
+                        <h5>2019-2020</h5>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-5 offset-sm-1">
+                        <div className="card card-body m-2">
+                            <h4><b>Midwest Regonal</b></h4>
+                            <h5>March 4 - 7, 2020</h5>
+                            <h5>Rank 8 with a 8-4-0</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4><b>Wisconsin Regional</b></h4>
+                            <i>Cancelled due to Covid-19</i>
+                        </div>
+                    </div>
+                    <div className="col-sm-5">
+                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                    </div>
+                </div>
+
+                {/* Deep Space */}
+
+                <div className="row">
+                    <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
+                        <h1><b>Destination: Deep Space</b></h1>
+                        <h5>2018-2019</h5>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-5 offset-sm-1">
+                        <div className="card card-body m-2">
+                            <h4><b>Midwest Regonal</b></h4>
+                            <h5>March 6 - 9, 2019</h5>
+                            <h5>Rank 23 with a 5-4-0</h5>
+                            <h5>Creativity Award</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4><b>Wisconsin Regonal</b></h4>
+                            <h5>March 27 - 30, 2019</h5>
+                            <h5>Rank 26 with a 7-6-1</h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-5">
+                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                    </div>
+                </div>
+
+                {/* Power-Up */}
+
+                <div className="row">
+                    <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
+                        <h1><b>Power-Up</b></h1>
+                        <h5>2017-2018</h5>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-5 offset-sm-1">
+                        <div className="card card-body m-2">
+                            <h4><b>Wisconsin Regional</b></h4>
+                            <h5>March 21 - 24, 2018</h5>
+                            <h5>Rank 40 with a 4-6-0</h5>
+                            <h5>Gracious Professionalism Award</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4><b>Seven Rivers Regional</b></h4>
+                            <h5>April 4 - 7, 2018</h5>
+                            <h5>Rank 31 with a 4-8-0</h5>
+                            <h5>Alliance 5</h5>
+                            <h5>Creativity Award</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4><b>Detroit Championships</b></h4>
+                            <h5>April 25 - 28, 2018</h5>
+                            <h5>Rank 48 with a 5-5-0</h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-5">
+                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                    </div>
+                </div>
+
+                {/* Steamworks */}
+
+                <div className="row">
+                    <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
                         <h1><b>Steamworks</b></h1>
                         <h5>2016-2017</h5>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="col-sm-5 offset-sm-1">
                         <div className="card card-body m-2">
@@ -45,13 +185,15 @@ class History extends React.Component
                             <h4><b>Rock River Regional</b></h4>
                             <h6><i>Off-Season Event</i></h6>
                             <h5>July 29, 2017</h5>
-                            
+
                         </div>
                     </div>
                     <div className="col-sm-5">
                         <img className="Sponsors-img" src="/2017-team.jpg" />
                     </div>
                 </div>
+
+                {/* Stronghold */}
 
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-3 pb-2">
@@ -60,7 +202,6 @@ class History extends React.Component
                         <h5>2015-2016</h5>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="col-sm-5 offset-sm-1">
                         <div className="card card-body m-2">
@@ -90,6 +231,7 @@ class History extends React.Component
                     </div>
                 </div>
 
+                {/* Recycle Rush */}
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-3 pb-2">
                         <hr className="mb-4" />
@@ -97,7 +239,6 @@ class History extends React.Component
                         <h5>2014-2015</h5>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="col-sm-5 offset-sm-1">
                         <div className="card card-body m-2">
@@ -122,6 +263,8 @@ class History extends React.Component
                     </div>
                 </div>
 
+                {/* Ariel Assist */}
+
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-3 pb-2">
                         <hr className="mb-4" />
@@ -129,7 +272,6 @@ class History extends React.Component
                         <h5>2013-2014</h5>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="col-sm-5 offset-sm-1">
                         <div className="card card-body m-2">

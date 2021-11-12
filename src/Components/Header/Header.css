@@ -1,16 +1,23 @@
 .Header {
-    border-top: 4px solid #F4CC00;
-    filter: drop-shadow(0px 2px 5px #afafaf);
-    background-color: white;
+    border-bottom: 4px solid #F4CC00;
+    background-color: #171717;
+    color: white;
+    font-family: 'Righteous', sans-serif;
 }
 
 .btn-nav {
-    color: black;
+    color: white;
     font-size: 18px;
     margin-left: 20px;
+    transition-property: color;
+    transition-duration: 100ms;
 }
 .btn-nav:hover {
     color: #d4b207;
+}
+.btn-nav:focus {
+    box-shadow: 0 0 0 .25rem #ad9000;
+    color: #ad9000;
 }
 
 .navbar-brand {
