@@ -1,7 +1,7 @@
 import React from 'react';
 import './History.css';
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 
 class History extends React.Component {
     render() {
@@ -33,14 +33,17 @@ class History extends React.Component {
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
                             <h5>March 23 - 26, 2021</h5>
+                            <h5>Qualifications: Rank 34 (5-6-1)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Seven Rivers Regional</b></h4>
                             <h5>March 30 - April 2, 2021</h5>
+                            <h5>Qualifications: Rank 27 (5-8-0)</h5>
+                            <h5>Playoffs: Alliance 8 (0-2-0)</h5>
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                        <img className="Sponsors-img" src="/2022-team.png" alt="" />
                     </div>
                 </div>
 
@@ -66,7 +69,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                        <img className="Sponsors-img" src="/2021-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -82,9 +85,9 @@ class History extends React.Component {
                 <div className="row">
                     <div className="col-sm-5 offset-sm-1">
                         <div className="card card-body m-2">
-                            <h4><b>Midwest Regonal</b></h4>
+                            <h4><b>Midwest Regional</b></h4>
                             <h5>March 4 - 7, 2020</h5>
-                            <h5>Rank 8 with a 8-4-0</h5>
+                            <h5>Qualifications: Rank 8 (8-4-0)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
@@ -92,7 +95,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                        <img className="Sponsors-img" src="/2020-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -108,28 +111,28 @@ class History extends React.Component {
                 <div className="row">
                     <div className="col-sm-5 offset-sm-1">
                         <div className="card card-body m-2">
-                            <h4><b>Midwest Regonal</b></h4>
+                            <h4><b>Midwest Regional</b></h4>
                             <h5>March 6 - 9, 2019</h5>
-                            <h5>Rank 23 with a 5-4-0</h5>
+                            <h5>Qualifications: Rank 23 (5-4-0)</h5>
                             <h5>Creativity Award</h5>
                         </div>
                         <div className="card card-body m-2">
-                            <h4><b>Wisconsin Regonal</b></h4>
+                            <h4><b>Wisconsin Regional</b></h4>
                             <h5>March 27 - 30, 2019</h5>
-                            <h5>Rank 26 with a 7-6-1</h5>
+                            <h5>Qualifications: Rank 26 (7-6-1)</h5>
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                        <img className="Sponsors-img" src="/2019-team.jpg" alt="" />
                     </div>
                 </div>
 
-                {/* Power-Up */}
+                {/* Power Up */}
 
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <hr className="mb-4" />
-                        <h1><b>Power-Up</b></h1>
+                        <h1><b>Power Up</b></h1>
                         <h5>2017-2018</h5>
                     </div>
                 </div>
@@ -138,24 +141,25 @@ class History extends React.Component {
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
                             <h5>March 21 - 24, 2018</h5>
-                            <h5>Rank 40 with a 4-6-0</h5>
+                            <h5>Qualifications: Rank 40 (4-6-0)</h5>
                             <h5>Gracious Professionalism Award</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Seven Rivers Regional</b></h4>
                             <h5>April 4 - 7, 2018</h5>
-                            <h5>Rank 31 with a 4-8-0</h5>
-                            <h5>Alliance 5</h5>
+                            <h5>Qualifications: Rank 31 (4-8-0)</h5>
+                            <h5>Playoffs: Alliance 5 (0-2-0)</h5>
                             <h5>Creativity Award</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Detroit Championships</b></h4>
+                            <h5><b>Daly Division</b></h5>
                             <h5>April 25 - 28, 2018</h5>
-                            <h5>Rank 48 with a 5-5-0</h5>
+                            <h5>Qualifications: Rank 48 (5-5-0)</h5>
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                        <img className="Sponsors-img" src="/2018-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -173,13 +177,13 @@ class History extends React.Component {
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
                             <h5>March 22 - 25, 2017</h5>
-                            <h5>Rank 14 with a 7-3-0</h5>
+                            <h5>Qualifications: Rank 14 (7-3-0)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Seven Rivers Regional</b></h4>
                             <h5>April 12 - 15, 2017</h5>
-                            <h5>Rank 34 with a 4-5-1</h5>
-                            <h5>Alliance 8 (0-2)</h5>
+                            <h5>Qualifications: Rank 34 (4-5-1)</h5>
+                            <h5>Playoffs: Alliance 8 (0-2-0)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Rock River Regional</b></h4>
@@ -189,7 +193,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2017-team.jpg" />
+                        <img className="Sponsors-img" src="/2017-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -207,13 +211,13 @@ class History extends React.Component {
                         <div className="card card-body m-2">
                             <h4><b>Northern Lights Regional</b></h4>
                             <h5>March 2 - 5, 2016</h5>
-                            <h5>Rank 29 with a 3-5-0</h5>
+                            <h5>Qualifications: Rank 29 (3-5-0)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
                             <h5>March 23 - 26, 2016</h5>
-                            <h5>Rank 15 with a 7-3-0</h5>
-                            <h5>Alliance 1 (1-2)</h5>
+                            <h5>Qualifications: Rank 15 (7-3-0)</h5>
+                            <h5>Playoffs: Alliance 1 (1-2-0)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Summerfest</b></h4>
@@ -227,7 +231,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2016-team.jpg" />
+                        <img className="Sponsors-img" src="/2016-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -244,13 +248,14 @@ class History extends React.Component {
                         <div className="card card-body m-2">
                             <h4><b>Northern Lights Regional</b></h4>
                             <h5>Februrary 25 - 28, 2015</h5>
-                            <h5>Rank 17 average of 54.37</h5>
+                            <h5>Qualifications: Rank 17 (54.37 average score)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
                             <h5>March 18 - 21, 2015</h5>
-                            <h5>Rank 10 average of 73.67</h5>
-                            <h5>Alliance (4-3)</h5>
+                            <h5>Qualifications: Rank 10 (73.67 average score)</h5>
+                            <h5>Playoffs: Alliance 6 (105.0 average score)</h5>
+                            <h5>Regional Finalists</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Robofest</b></h4>
@@ -259,16 +264,16 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2015-team.jpg" />
+                        <img className="Sponsors-img" src="/2015-team.jpg" alt="" />
                     </div>
                 </div>
 
-                {/* Ariel Assist */}
+                {/* Aerial Assist */}
 
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-3 pb-2">
                         <hr className="mb-4" />
-                        <h1><b>Ariel Assist</b></h1>
+                        <h1><b>Aerial Assist</b></h1>
                         <h5>2013-2014</h5>
                     </div>
                 </div>
@@ -277,13 +282,13 @@ class History extends React.Component {
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
                             <h5>March 23 - 26, 2014</h5>
-                            <h5>Rank 46 with a 3-6-1</h5>
+                            <h5>Qualifications: Rank 46 (3-6-1)</h5>
                             <h5>Rookie All-Star</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>FRC Championship</b></h4>
                             <h5>April 23 - 24, 2014</h5>
-                            <h5>Rank 45 with a 6-4-0</h5>
+                            <h5>Qualifications: Rank 45 (6-4-0)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Robofest</b></h4>
@@ -292,7 +297,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2014-team.jpg" />
+                        <img className="Sponsors-img" src="/2014-team.jpg" alt="" />
                     </div>
                 </div>
 

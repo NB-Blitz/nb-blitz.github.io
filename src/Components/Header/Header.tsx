@@ -6,7 +6,7 @@ function Header() {
         <nav className="Header navbar navbar-expand-lg">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
-                    <img src="/logo-2.png" height="80" />
+                    <img src="/logo-2.png" height="80" alt="" />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">

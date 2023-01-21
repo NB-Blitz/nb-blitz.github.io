@@ -1,11 +1,9 @@
 import React from 'react';
 import './NotFound.css';
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
-import ShowcaseVideo from '../../Components/ShowcaseVideo/ShowcaseVideo'
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 
-class NotFound extends React.Component
-{
+class NotFound extends React.Component {
     render() {
         return (
             <div className="NotFound">

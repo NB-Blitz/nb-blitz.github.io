@@ -1,11 +1,10 @@
 import React from 'react';
 import './Home.css';
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
-import ShowcaseVideo from '../../Components/ShowcaseVideo/ShowcaseVideo'
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
+import ShowcaseVideo from '../../Components/ShowcaseVideo/ShowcaseVideo';
 
 class Home extends React.Component {
-
     componentDidMount() {
         const script = document.createElement("script");
 
@@ -36,7 +35,7 @@ class Home extends React.Component {
                         </p>
                     </div>
                     <div className="col-sm-4 p-5">
-                        <img className="first-logo" src="/first-logo.jpg"></img>
+                        <img className="first-logo" src="/first-logo.jpg" alt="" />
                     </div>
                 </div>
                 <div className="row">
@@ -51,7 +50,7 @@ class Home extends React.Component {
                         </a>
                     </div>
                     <div className="col-sm-5">
-                        <iframe className="calendar" src="https://calendar.google.com/calendar/embed?src=nbexcellence.org_rkq0rkrg698qi9428bh29asrc8%40group.calendar.google.com&ctz=America%2FChicago" frameBorder="0" scrolling="no"></iframe>
+                        <iframe className="calendar" title="calendar" src="https://calendar.google.com/calendar/embed?src=nbexcellence.org_rkq0rkrg698qi9428bh29asrc8%40group.calendar.google.com&ctz=America%2FChicago" frameBorder="0" scrolling="no" />
                     </div>
                 </div>
 
