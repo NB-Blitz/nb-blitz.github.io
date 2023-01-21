@@ -43,7 +43,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2022-team.png" alt="" />
+                        <img className="Sponsors-img" src="/teams/2022-team.png" alt="" />
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ class History extends React.Component {
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <hr className="mb-4" />
                         <h1><b>Infinite Recharge II</b></h1>
-                        <h5>2019-2020</h5>
+                        <h5>2020-2021</h5>
                     </div>
                 </div>
                 <div className="row">
@@ -69,7 +69,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2021-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2021-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -91,11 +91,11 @@ class History extends React.Component {
                         </div>
                         <div className="card card-body m-2">
                             <h4><b>Wisconsin Regional</b></h4>
-                            <i>Cancelled due to Covid-19</i>
+                            <i>Cancelled due to COVID-19</i>
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2020-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2020-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2019-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2019-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -159,7 +159,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2018-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2018-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -193,7 +193,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2017-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2017-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -231,7 +231,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2016-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2016-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -264,7 +264,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2015-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2015-team.jpg" alt="" />
                     </div>
                 </div>
 
@@ -297,7 +297,7 @@ class History extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-5">
-                        <img className="Sponsors-img" src="/2014-team.jpg" alt="" />
+                        <img className="Sponsors-img" src="/teams/2014-team.jpg" alt="" />
                     </div>
                 </div>
 
