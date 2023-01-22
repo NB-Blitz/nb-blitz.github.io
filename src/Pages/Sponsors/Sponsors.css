@@ -5,13 +5,17 @@
 }
 
 .Sponsors-img {
-    width:80%;
+    width: 80%;
     margin-left: 10%;
     margin-top: 40px;
 }
 
 .Sponsors-img-sm {
-    width:40%;
+    width: 40%;
     margin-left: 30%;
     margin-top: 40px;
+}
+
+.Sponsors-btn {
+    margin-left: 5%;
 }

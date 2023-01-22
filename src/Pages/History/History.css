@@ -7,7 +7,12 @@
 }
 
 .History-img {
-    width:80%;
+    width: 80%;
     margin-left: 10%;
-    margin-top: 40px;
+}
+
+.History-robot-img {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
 }
