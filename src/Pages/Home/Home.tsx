@@ -34,7 +34,7 @@ class Home extends React.Component {
                             &#8195; - Dean Kamen, Founder of FIRST
                         </p>
                     </div>
-                    <div className="col-sm-4 p-5">
+                    <div className="col-sm-5 p-5 d-flex align-items-center justify-content-center">
                         <img className="first-logo" src="/first-logo.jpg" alt="" />
                     </div>
                 </div>

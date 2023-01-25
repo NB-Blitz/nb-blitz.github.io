@@ -17,7 +17,7 @@ class Sponsors extends React.Component {
                         <p>
                             If you are interesed in sponsoring Team 5148, please refer to the sponsorship tiers below. You can donate online through the link below, or if you would like to speak to a team representative, please contact us.
                         </p>
-                        <a className="btn btn-warning" href="/SponsorshipTiers_NBBlitz_2023.pdf">
+                        <a className="btn btn-warning" href="/SponsorshipTiers_NBBlitz_2023.pdf" target="_blank" rel="noreferrer noopener">
                             Sponsorship Tiers
                         </a>
                         <a className="btn btn-warning Sponsors-btn" href="https://nbps.revtrak.net/new-berlin-west-fees/west-robotics/#/list">

@@ -38,7 +38,9 @@ class ShowcaseVideo extends React.Component {
                 <div id="videooverlay">
                     <img src="/logo.png" height="90" alt="" />
                     <h1>New Berlin Blitz</h1>
-                    <a href="https://bit.ly/3mRaCTD">Join us for the spring 2022 season &gt;</a>
+                    <a href="https://www.firstinspires.org/robotics/frc/game-and-season" target="_blank" rel="noreferrer noopener">
+                        Join us for the spring 2023 season &gt;
+                    </a>
                 </div>
             </div>
         );
