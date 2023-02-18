@@ -41,6 +41,7 @@ class Sponsors extends React.Component {
                     <div className="col-sm-8 offset-sm-1 mx-auto">
                         <img className="Sponsors-sdnb-img" src="/sponsors/sdnb.png" alt="" />
                         <img className="Sponsors-img" src="/sponsors/mill-rite.jpg" alt="" />
+                        <img className="Sponsors-img" src="/sponsors/wdpi.png" alt="" />
                     </div>
                 </div>
                 <div className="row">
