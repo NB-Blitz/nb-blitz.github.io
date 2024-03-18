@@ -16,5 +16,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `yarn deploy`
 
-Deploys the app on the public site *(requirs elevated privileges)*\
+Deploys the app on the public site *(requires elevated privileges)*\
 Open [https://nb-blitz.github.io/](https://nb-blitz.github.io/) to view it in the browser.
