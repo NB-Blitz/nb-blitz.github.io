@@ -1,5 +1,5 @@
-import React from 'react';
-import './ShowcaseVideo.css';
+import React from "react";
+import "./ShowcaseVideo.css";
 
 class ShowcaseVideo extends React.Component {
     video?: HTMLVideoElement;
@@ -9,22 +9,22 @@ class ShowcaseVideo extends React.Component {
         window.onresize = this.onResize.bind(this);
 
         this.getElements();
-        if (this.video)
-            this.video.onplay = this.onResize.bind(this);
+        if (this.video) this.video.onplay = this.onResize.bind(this);
     }
 
     getElements() {
         this.video = document.getElementById("video") as HTMLVideoElement;
-        this.overlay = document.getElementById("videooverlay") as HTMLDivElement;
+        this.overlay = document.getElementById(
+            "videooverlay"
+        ) as HTMLDivElement;
     }
 
     onResize() {
-        if (!(this.video && this.overlay))
-            return;
+        if (!(this.video && this.overlay)) return;
 
         let h = this.video.clientHeight;
         this.overlay.style.height = h + "px";
-        this.overlay.style.paddingTop = (h - 220) + "px";
+        this.overlay.style.paddingTop = h - 220 + "px";
     }
 
     render() {
@@ -32,14 +32,25 @@ class ShowcaseVideo extends React.Component {
             <div className="ShowcaseVideo">
                 <div className="row">
                     <div className="col-sm-12">
-                        <video autoPlay={true} loop={true} preload="auto" muted={true} src="/Showcase.mp4" id="video"></video>
+                        <video
+                            autoPlay={true}
+                            loop={true}
+                            preload="auto"
+                            muted={true}
+                            src="/Showcase.mp4"
+                            id="video"
+                        ></video>
                     </div>
                 </div>
                 <div id="videooverlay">
                     <img src="/logo.png" height="90" alt="" />
                     <h1>New Berlin Blitz</h1>
-                    <a href="https://www.firstinspires.org/robotics/frc/game-and-season" target="_blank" rel="noreferrer noopener">
-                        Join us for the spring 2023 season &gt;
+                    <a
+                        href="https://www.firstinspires.org/robotics/frc/game-and-season"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                    >
+                        Join us for the 2024 season &gt;
                     </a>
                 </div>
             </div>

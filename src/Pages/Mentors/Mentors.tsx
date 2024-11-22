@@ -1,8 +1,8 @@
-import React from 'react';
-import './Mentors.css';
-import Header from '../../Components/Header/Header';
-import Footer from '../../Components/Footer/Footer';
-import MentorCard from './MentorCard';
+import React from "react";
+import "./Mentors.css";
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+import MentorCard from "./MentorCard";
 
 class Mentors extends React.Component {
     render() {
@@ -18,20 +18,28 @@ class Mentors extends React.Component {
                             <b>Mentors</b>
                         </h5>
                         <p>
-                            Our team is mentored by amazing members of our community. If you're interested in being a mentor on our team, please <a href="mailto:5148nbblitz@gmail.com">contact us</a>.
+                            Our team is mentored by amazing members of our
+                            community. If you're interested in being a mentor on
+                            our team, please{" "}
+                            <a href="mailto:5148nbblitz@gmail.com">
+                                contact us
+                            </a>
+                            .
                         </p>
                     </div>
                 </div>
 
                 {/* Advisors */}
-                
+
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1><b>Advisors</b></h1>
+                        <h1>
+                            <b>Advisors</b>
+                        </h1>
                         <hr />
                     </div>
                 </div>
-                
+
                 <div className="row justify-content-center">
                     <div className="col-sm-4 pt-5 pb-2">
                         <MentorCard name="Michael Krack" img={placeholder} />
@@ -45,7 +53,9 @@ class Mentors extends React.Component {
 
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1><b>Mechanical Mentors</b></h1>
+                        <h1>
+                            <b>Mechanical Mentors</b>
+                        </h1>
                         <hr />
                     </div>
                 </div>
@@ -78,7 +88,9 @@ class Mentors extends React.Component {
 
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1><b>Electrical Mentors</b></h1>
+                        <h1>
+                            <b>Electrical Mentors</b>
+                        </h1>
                         <hr />
                     </div>
                 </div>
@@ -96,7 +108,9 @@ class Mentors extends React.Component {
 
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1><b>Programming Mentors</b></h1>
+                        <h1>
+                            <b>Programming Mentors</b>
+                        </h1>
                         <hr />
                     </div>
                 </div>
@@ -120,7 +134,9 @@ class Mentors extends React.Component {
 
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1><b>Business Mentors</b></h1>
+                        <h1>
+                            <b>Business Mentors</b>
+                        </h1>
                         <hr />
                     </div>
                 </div>
