@@ -4,7 +4,7 @@ Made using [React](https://github.com/facebook/create-react-app).
 
 ## Building
 
-Install [Node.js v18](https://nodejs.org/en/).\
+Install [Node.js v20.14.8](https://nodejs.org/en/).\
 Run `npm i --global yarn` and `npm i` in the project root directory to install dependencies.\
 You might need to restart your terminal to use yarn.\
 In the project directory, you can run:
@@ -16,5 +16,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `yarn deploy`
 
-Deploys the app on the public site *(requires elevated privileges)*\
+Deploys the app on the public site _(requires elevated privileges)_\
 Open [https://nb-blitz.github.io/](https://nb-blitz.github.io/) to view it in the browser.

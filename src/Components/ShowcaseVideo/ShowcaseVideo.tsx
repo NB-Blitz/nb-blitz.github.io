@@ -50,7 +50,7 @@ class ShowcaseVideo extends React.Component {
                         target="_blank"
                         rel="noreferrer noopener"
                     >
-                        Join us for the 2024 season &gt;
+                        Join us for the 2025 season &gt;
                     </a>
                 </div>
             </div>
