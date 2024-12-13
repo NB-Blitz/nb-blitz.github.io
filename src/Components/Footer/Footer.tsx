@@ -70,13 +70,13 @@ function Footer() {
                     <a className="btn-foot ms-3" href="/">
                         Home
                     </a>
-                    <a className="btn-foot ms-3" href="/sponsors">
+                    <a className="btn-foot ms-3" href="/#/sponsors">
                         Sponsors
                     </a>
-                    <a className="btn-foot ms-3" href="/history">
+                    <a className="btn-foot ms-3" href="/#/history">
                         History
                     </a>
-                    <a className="btn-foot ms-3" href="/mentors">
+                    <a className="btn-foot ms-3" href="/#/mentors">
                         Mentors
                     </a>
                     <a

@@ -44,18 +44,24 @@ function Header() {
                         <li className="nav-item">
                             <a
                                 className="nav-link btn btn-nav"
-                                href="/sponsors"
+                                href="/#/sponsors"
                             >
                                 Sponsors
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link btn btn-nav" href="/history">
+                            <a
+                                className="nav-link btn btn-nav"
+                                href="/#/history"
+                            >
                                 History
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link btn btn-nav" href="/mentors">
+                            <a
+                                className="nav-link btn btn-nav"
+                                href="/#/mentors"
+                            >
                                 Mentors
                             </a>
                         </li>
