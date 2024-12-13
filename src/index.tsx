@@ -16,9 +16,9 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/Sponsors" element={<Sponsors />} />
-                <Route path="/History" element={<History />} />
-                <Route path="/Mentors" element={<Mentors />} />
+                <Route path="sponsors" element={<Sponsors />} />
+                <Route path="history" element={<History />} />
+                <Route path="mentors" element={<Mentors />} />
                 <Route element={<NotFound />} />
             </Routes>
         </BrowserRouter>

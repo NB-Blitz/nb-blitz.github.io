@@ -67,16 +67,16 @@ function Footer() {
             </div>
             <div className="row">
                 <div className="col-sm-12 text-center p-3">
-                    <a className="btn-foot ms-3" href="/#/">
+                    <a className="btn-foot ms-3" href="/">
                         Home
                     </a>
-                    <a className="btn-foot ms-3" href="/#/Sponsors">
+                    <a className="btn-foot ms-3" href="/sponsors">
                         Sponsors
                     </a>
-                    <a className="btn-foot ms-3" href="/#/History">
+                    <a className="btn-foot ms-3" href="/history">
                         History
                     </a>
-                    <a className="btn-foot ms-3" href="/#/Mentors">
+                    <a className="btn-foot ms-3" href="/mentors">
                         Mentors
                     </a>
                     <a
