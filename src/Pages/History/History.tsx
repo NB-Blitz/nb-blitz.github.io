@@ -34,6 +34,51 @@ class History extends React.Component {
                     </div>
                 </div>
 
+                {/* Reefscape */}
+
+                <div className="row">
+                    <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <h1>
+                            <b>Reefscase</b>
+                        </h1>
+                        <h5>2024-2025</h5>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-5 offset-sm-1">
+                        <div className="card card-body m-2">
+                            <h4>
+                                <b>Wisconsin Regional</b>
+                            </h4>
+                            <h5>April 3 - 6, 2025</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4>
+                                <b>Seven Rivers Regional</b>
+                            </h4>
+                            <h5>March, 19 - 22, 2025</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4>
+                                <b>Phantom Lakes Regional</b>
+                            </h4>
+                            <h5>March, 27 - 29, 2025</h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-5">
+                        {/* <img
+                            className="History-img"
+                            src="/teams/2022-team.png"
+                            alt=""
+                        />
+                        <img
+                            className="History-robot-img"
+                            src="/robots/2022-robot.png"
+                            alt=""
+                        /> */}
+                    </div>
+                </div>
+
                 {/* Crescendo */}
 
                 <div className="row">
