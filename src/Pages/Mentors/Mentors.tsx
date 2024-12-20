@@ -42,7 +42,7 @@ class Mentors extends React.Component {
 
                 <div className="row justify-content-center">
                     <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Michael Krack" img={placeholder} />
+                        <MentorCard name="Jeff Pahl" img={placeholder} />
                     </div>
                     <div className="col-sm-4 pt-5 pb-2">
                         <MentorCard name="BobbieJo Koski" img={placeholder} />
@@ -54,53 +54,34 @@ class Mentors extends React.Component {
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5">
                         <h1>
-                            <b>Mechanical Mentors</b>
+                            <b>Hardware Mentors</b>
                         </h1>
                         <hr />
                     </div>
                 </div>
 
                 <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Jeff Pahl" img={placeholder} />
-                    </div>
                     <div className="col-sm-4 pt-5 pb-2">
                         <MentorCard name="Robert Schweigel" img={placeholder} />
                     </div>
-                </div>
-
-                <div className="row justify-content-center">
                     <div className="col-sm-4 pt-5 pb-2">
                         <MentorCard name="Dave Ferguson" img={placeholder} />
                     </div>
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Paul Zelinger" img={placeholder} />
-                    </div>
                 </div>
-
                 <div className="row justify-content-center">
                     <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Phill Barufkin" img={placeholder} />
+                        <MentorCard name="Glen Groeschel" img={placeholder} />
+                    </div>
+                    <div className="col-sm-4 pt-5 pb-2">
+                        <MentorCard name="Cat Vink" img={placeholder} />
                     </div>
                 </div>
-
-                {/* Electrical Mentors */}
-
-                <div className="row">
-                    <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1>
-                            <b>Electrical Mentors</b>
-                        </h1>
-                        <hr />
-                    </div>
-                </div>
-
                 <div className="row justify-content-center">
                     <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Pete Thomas" img={placeholder} />
+                        <MentorCard name="Kate Zelinger" img={placeholder} />
                     </div>
                     <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Scott Doyle" img={placeholder} />
+                        <MentorCard name="Tony Bishop" img={placeholder} />
                     </div>
                 </div>
 
@@ -109,7 +90,7 @@ class Mentors extends React.Component {
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5">
                         <h1>
-                            <b>Programming Mentors</b>
+                            <b>Software Mentors</b>
                         </h1>
                         <hr />
                     </div>
@@ -117,16 +98,10 @@ class Mentors extends React.Component {
 
                 <div className="row justify-content-center">
                     <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="John Lambert" img={placeholder} />
-                    </div>
-                    <div className="col-sm-4 pt-5 pb-2">
                         <MentorCard name="David Schulz" img={placeholder} />
                     </div>
-                </div>
-
-                <div className="row justify-content-center">
                     <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Rachel Lewis" img={placeholder} />
+                        <MentorCard name="Max Kallenberger" img={placeholder} />
                     </div>
                 </div>
 
@@ -149,13 +124,6 @@ class Mentors extends React.Component {
                         <MentorCard name="Janet Schulz" img={placeholder} />
                     </div>
                 </div>
-
-                <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Lori Doyle" img={placeholder} />
-                    </div>
-                </div>
-
                 <Footer />
             </div>
         );
