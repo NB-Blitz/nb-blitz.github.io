@@ -2,11 +2,9 @@ import React from "react";
 import "./Mentors.css";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-import MentorCard from "./MentorCard";
 
 class Mentors extends React.Component {
     render() {
-        var placeholder = "/mentors/placeholder.png";
 
         return (
             <div className="Mentors">
@@ -29,101 +27,79 @@ class Mentors extends React.Component {
                     </div>
                 </div>
 
-                {/* Advisors */}
 
                 <div className="row">
-                    <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1>
-                            <b>Advisors</b>
-                        </h1>
+                    <div className="col-sm-2 offset-sm-2 pt-3">
+                        <h3>
+                            <b><br/>Advisors</b>
+                        </h3>
                         <hr />
                     </div>
-                </div>
 
-                <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Jeff Pahl" img={placeholder} />
-                    </div>
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="BobbieJo Koski" img={placeholder} />
-                    </div>
-                </div>
-
-                {/* Mechanical Mentors */}
-
-                <div className="row">
-                    <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1>
+                    <div className="col-sm-2 pt-3">
+                        <h3>
                             <b>Hardware Mentors</b>
-                        </h1>
+                        </h3>
                         <hr />
                     </div>
-                </div>
 
-                <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Robert Schweigel" img={placeholder} />
-                    </div>
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Dave Ferguson" img={placeholder} />
-                    </div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Glen Groeschel" img={placeholder} />
-                    </div>
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Cat Vink" img={placeholder} />
-                    </div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Kate Zelinger" img={placeholder} />
-                    </div>
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Tony Bishop" img={placeholder} />
-                    </div>
-                </div>
-
-                {/* Programming Mentors */}
-
-                <div className="row">
-                    <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1>
+                    <div className="col-sm-2 pt-3">
+                        <h3>
                             <b>Software Mentors</b>
-                        </h1>
+                        </h3>
+                        <hr />
+                    </div>
+                    <div className="col-sm-2 pt-3">
+                        <h3>
+                            <b>Buisness Mentors</b>
+                        </h3>
                         <hr />
                     </div>
                 </div>
-
-                <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="David Schulz" img={placeholder} />
-                    </div>
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Max Kallenberger" img={placeholder} />
-                    </div>
-                </div>
-
-                {/* Business Mentors */}
 
                 <div className="row">
-                    <div className="col-sm-10 offset-sm-1 pt-5">
-                        <h1>
-                            <b>Business Mentors</b>
-                        </h1>
-                        <hr />
+                    <div className="col-sm-2 offset-sm-2">
+                        <ul>
+                            <li>Jeff Pahl</li>
+                            <li>BobbieJo Koski</li>
+                        </ul>
+                        
+                    </div>
+
+                    <div className="col-sm-2">
+                        <ul>
+                            <li>Robert Schweigel</li>
+                            <li>Dave Ferguson</li>
+                            <li>Glen Groeschel</li>
+                            <li>Cat Vink</li>
+                            <li>Kate Zelinger</li>
+                            <li>Tony Bishop</li>
+                        </ul>
+                    </div>
+
+                    <div className="col-sm-2">
+                        <ul>
+                            <li>David Schulz</li>
+                            <li>Max Kallenberger</li>
+                        </ul>
+                    </div>
+
+                    <div className="col-sm-2">
+                        <ul>
+                            <li>Angela Spielman</li>
+                            <li>Janet Shulz</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div className="row justify-content-center">
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Angela Spielman" img={placeholder} />
-                    </div>
-                    <div className="col-sm-4 pt-5 pb-2">
-                        <MentorCard name="Janet Schulz" img={placeholder} />
-                    </div>
-                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                
+
                 <Footer />
             </div>
         );
