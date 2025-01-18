@@ -51,7 +51,7 @@ class Mentors extends React.Component {
                     </div>
                     <div className="col-sm-2 pt-3">
                         <h3>
-                            <b>Buisness Mentors</b>
+                            <b>Business Mentors</b>
                         </h3>
                         <hr />
                     </div>
