@@ -6,7 +6,7 @@ function Header() {
         <nav className="Header navbar navbar-expand-lg">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
-                    <img src="/logo-2.png" height="80" alt="" />
+                    <img src="/logo-banner.png" height="80" alt="" />
                 </a>
                 <button
                     className="navbar-toggler"
@@ -68,7 +68,15 @@ function Header() {
                         <li className="nav-item">
                             <a
                                 className="nav-link btn btn-nav"
-                                href="mailto:5148nbblitz@gmail.com"
+                                href="/#/gallery"
+                            >
+                                Gallery
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a
+                                className="nav-link btn btn-nav"
+                                href="mailto:Team5148@nbexcellence.org"
                             >
                                 Contact Us
                             </a>

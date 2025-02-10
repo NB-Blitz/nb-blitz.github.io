@@ -3,7 +3,7 @@ import "./History.css";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 
-class History extends React.Component {
+export default class History extends React.Component {
     render() {
         return (
             <div className="History">
@@ -34,18 +34,64 @@ class History extends React.Component {
                     </div>
                 </div>
 
-                {/* Crescendo */}
-
+                {/* Reefscape */}
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <h1>
-                            <b>Crescendo</b>
+                            <b>Reefscape</b>
                         </h1>
-                        <h5>2023-2024</h5>
+                        <h5>2025</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
+                        <div className="card card-body m-2">
+                            <h4>
+                                <b>Seven Rivers Regional</b>
+                            </h4>
+                            <h5>March 19 - 22, 2025</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4>
+                                <b>Phantom Lakes Regional</b>
+                            </h4>
+                            <h5>March 27 - 29, 2025</h5>
+                        </div>
+                        <div className="card card-body m-2">
+                            <h4>
+                                <b>Wisconsin Regional</b>
+                            </h4>
+                            <h5>April 3 - 6, 2025</h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                        <img
+                            className="History-robot-img"
+                            src="/robots/2025-robot.png"
+                            alt=""
+                        />
+                    </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2025-team.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+
+                {/* Crescendo */}
+                <div className="row">
+                    <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
+                        <h1>
+                            <b>Crescendo</b>
+                        </h1>
+                        <h5>2024</h5>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Wisconsin Regional</b>
@@ -62,32 +108,34 @@ class History extends React.Component {
                             <h5>Qualifications: Rank 45 (3-7-0)</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        {/* <img
-                            className="History-img"
-                            src="/teams/2022-team.png"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
-                            src="/robots/2022-robot.png"
+                            src="/robots/2024-robot.png"
                             alt=""
-                        /> */}
+                        />
+                    </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2024-team.jpg"
+                            alt=""
+                        />
                     </div>
                 </div>
 
                 {/* Charged Up */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
                         <h1>
                             <b>Charged Up</b>
                         </h1>
-                        <h5>2022-2023</h5>
+                        <h5>2023</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Midwest Regional</b>
@@ -103,32 +151,34 @@ class History extends React.Component {
                             <h5>Qualifications: Rank 32 (6-6-0)</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        {/* <img
-                            className="History-img"
-                            src="/teams/2022-team.png"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
-                            src="/robots/2022-robot.png"
+                            src="/robots/2023-robot.png"
                             alt=""
-                        /> */}
+                        />
+                    </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2023-team.jpg"
+                            alt=""
+                        />
                     </div>
                 </div>
 
                 {/* Rapid React */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
+                        <hr className="mb-4" />
                         <h1>
                             <b>Rapid React</b>
                         </h1>
-                        <h5>2021-2022</h5>
+                        <h5>2022</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Wisconsin Regional</b>
@@ -145,33 +195,34 @@ class History extends React.Component {
                             <h5>Playoffs: Alliance 8 (0-2-0)</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2022-team.png"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2022-robot.png"
                             alt=""
                         />
                     </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2022-team.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 {/* Infinite Recharge II */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <hr className="mb-4" />
                         <h1>
                             <b>Infinite Recharge II</b>
                         </h1>
-                        <h5>2020-2021</h5>
+                        <h5>2021</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Infinite Recharge at Home</b>
@@ -186,33 +237,34 @@ class History extends React.Component {
                             <h5>Potassium Group</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2021-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2021-robot.png"
                             alt=""
                         />
                     </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2021-team.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 {/* Infinite Recharge I */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <hr className="mb-4" />
                         <h1>
                             <b>Infinite Recharge I</b>
                         </h1>
-                        <h5>2019-2020</h5>
+                        <h5>2020</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Midwest Regional</b>
@@ -227,33 +279,34 @@ class History extends React.Component {
                             <i>Cancelled due to COVID-19</i>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2020-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2020-robot.png"
                             alt=""
                         />
                     </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2020-team.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 {/* Deep Space */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <hr className="mb-4" />
                         <h1>
                             <b>Destination: Deep Space</b>
                         </h1>
-                        <h5>2018-2019</h5>
+                        <h5>2019</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Midwest Regional</b>
@@ -270,33 +323,34 @@ class History extends React.Component {
                             <h5>Qualifications: Rank 26 (7-6-1)</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2019-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2019-robot.png"
                             alt=""
                         />
                     </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2019-team.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 {/* Power Up */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <hr className="mb-4" />
                         <h1>
                             <b>Power Up</b>
                         </h1>
-                        <h5>2017-2018</h5>
+                        <h5>2018</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Wisconsin Regional</b>
@@ -325,33 +379,34 @@ class History extends React.Component {
                             <h5>Qualifications: Rank 48 (5-5-0)</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2018-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2018-robot.png"
                             alt=""
                         />
                     </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2018-team.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 {/* Steamworks */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-5 pb-2">
                         <hr className="mb-4" />
                         <h1>
                             <b>Steamworks</b>
                         </h1>
-                        <h5>2016-2017</h5>
+                        <h5>2017</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Wisconsin Regional</b>
@@ -377,33 +432,34 @@ class History extends React.Component {
                             <h5>July 29, 2017</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2017-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2017-robot.png"
                             alt=""
                         />
                     </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2017-team.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 {/* Stronghold */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-3 pb-2">
                         <hr className="mb-4" />
                         <h1>
                             <b>Stronghold</b>
                         </h1>
-                        <h5>2015-2016</h5>
+                        <h5>2016</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Northern Lights Regional</b>
@@ -438,15 +494,17 @@ class History extends React.Component {
                             <h5>September 24, 2016</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2016-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2016-robot.png"
+                            alt=""
+                        />
+                    </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2016-team.jpg"
                             alt=""
                         />
                     </div>
@@ -459,11 +517,11 @@ class History extends React.Component {
                         <h1>
                             <b>Recycle Rush</b>
                         </h1>
-                        <h5>2014-2015</h5>
+                        <h5>2015</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Northern Lights Regional</b>
@@ -494,33 +552,34 @@ class History extends React.Component {
                             <h5>September 26, 2015</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2015-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2015-robot.png"
                             alt=""
                         />
                     </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2015-team.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 {/* Aerial Assist */}
-
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-3 pb-2">
                         <hr className="mb-4" />
                         <h1>
                             <b>Aerial Assist</b>
                         </h1>
-                        <h5>2013-2014</h5>
+                        <h5>2014</h5>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
+                    <div className="col-sm-3 offset-sm-1">
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Wisconsin Regional</b>
@@ -546,15 +605,17 @@ class History extends React.Component {
                             <h5>September 27, 2014</h5>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="History-img"
-                            src="/teams/2014-team.jpg"
-                            alt=""
-                        />
+                    <div className="col-sm-3">
                         <img
                             className="History-robot-img"
                             src="/robots/2014-robot.png"
+                            alt=""
+                        />
+                    </div>
+                    <div className="col-sm-4">
+                        <img
+                            className="History-team-img"
+                            src="/teams/2014-team.jpg"
                             alt=""
                         />
                     </div>
@@ -565,5 +626,3 @@ class History extends React.Component {
         );
     }
 }
-
-export default History;
