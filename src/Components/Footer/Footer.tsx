@@ -79,9 +79,12 @@ function Footer() {
                     <a className="btn-foot ms-3" href="/#/mentors">
                         Mentors
                     </a>
+                    <a className="btn-foot ms-3" href="/#/gallery">
+                        Gallery
+                    </a>
                     <a
                         className="btn-foot ms-3"
-                        href="mailto:5148nbblitz@gmail.com"
+                        href="mailto:Team5148@nbexcellence.org"
                     >
                         Contact Us
                     </a>

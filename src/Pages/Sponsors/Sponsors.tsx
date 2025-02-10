@@ -23,7 +23,7 @@ class Sponsors extends React.Component {
                         </p>
                         <a
                             className="btn btn-warning"
-                            href="/SponsorshipTiers_NBBlitz_2023.pdf"
+                            href="/Sponsor_Flyer_2025.pdf"
                             target="_blank"
                             rel="noreferrer noopener"
                         >
@@ -32,6 +32,8 @@ class Sponsors extends React.Component {
                         <a
                             className="btn btn-warning Sponsors-btn"
                             href="https://nbps.revtrak.net/new-berlin-west-fees/west-robotics/#/list"
+                            target="_blank"
+                            rel="noreferrer noopener"
                         >
                             Donate Online
                         </a>
