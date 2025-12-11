@@ -50,18 +50,22 @@ export default class History extends React.Component {
                                 <b>Seven Rivers Regional</b>
                             </h4>
                             <h5>March 19 - 22, 2025</h5>
+                            <h5>Qualifications: Rank 38 (3-6-0)</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Phantom Lakes Regional</b>
                             </h4>
                             <h5>March 27 - 29, 2025</h5>
+                            <h5>Qualifications: Rank 35 (4-8-0)</h5>
+                            <h5>Rising All-Star Award</h5>
                         </div>
                         <div className="card card-body m-2">
                             <h4>
                                 <b>Wisconsin Regional</b>
                             </h4>
                             <h5>April 3 - 6, 2025</h5>
+                            <h5>Qualifications: Rank 44 (3-7-0)</h5>
                         </div>
                     </div>
                     <div className="col-sm-3">

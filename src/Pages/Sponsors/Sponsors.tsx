@@ -58,16 +58,6 @@ class Sponsors extends React.Component {
                 <div className="row">
                     <div className="col-sm-8 offset-sm-1 mx-auto">
                         <img
-                            className="Sponsors-sdnb-img"
-                            src="/sponsors/sdnb.png"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img"
-                            src="/sponsors/mill-rite.jpg"
-                            alt=""
-                        />
-                        <img
                             className="Sponsors-img"
                             src="/sponsors/wdpi.png"
                             alt=""
@@ -92,7 +82,12 @@ class Sponsors extends React.Component {
                         />
                         <img
                             className="Sponsors-img"
-                            src="/sponsors/rockwell.png"
+                            src="/sponsors/rockwell-automation.png"
+                            alt=""
+                        />
+                        <img
+                            className="Sponsors-img"
+                            src="/sponsors/krones.png"
                             alt=""
                         />
                     </div>
@@ -110,34 +105,24 @@ class Sponsors extends React.Component {
                     <div className="col-sm-5 offset-sm-1">
                         <img
                             className="Sponsors-img"
-                            src="/sponsors/krones.png"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img"
                             src="/sponsors/nokia-bell-labs.png"
                             alt=""
                         />
                         <img
                             className="Sponsors-img"
-                            src="/sponsors/eaton.png"
+                            src="/sponsors/northwestern-mutual.jpg"
                             alt=""
                         />
                     </div>
                     <div className="col-sm-5">
                         <img
-                            className="Sponsors-img-sm"
-                            src="/sponsors/ppg.png"
+                            className="Sponsors-img"
+                            src="/sponsors/generac.png"
                             alt=""
                         />
                         <img
                             className="Sponsors-img"
-                            src="/sponsors/nm-foundation.png"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img-sm"
-                            src="/sponsors/abb.png"
+                            src="/sponsors/watlow.png"
                             alt=""
                         />
                     </div>
@@ -152,35 +137,8 @@ class Sponsors extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-5 offset-sm-1">
-                        <img
-                            className="Sponsors-img-sm"
-                            src="/sponsors/msoe.jpg"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img"
-                            src="/sponsors/drexel.jpg"
-                            alt=""
-                        />
-                    </div>
-                    <div className="col-sm-5">
-                        <img
-                            className="Sponsors-img"
-                            src="/sponsors/nb-plastics.png"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img"
-                            src="/sponsors/cat.png"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img"
-                            src="/sponsors/wem.png"
-                            alt=""
-                        />
-                    </div>
+                    <div className="col-sm-5 offset-sm-1"></div>
+                    <div className="col-sm-5"></div>
                 </div>
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1 pt-1">
@@ -188,43 +146,28 @@ class Sponsors extends React.Component {
                         <h2>
                             <b>Bronze Sponsors</b>
                         </h2>
-                        <h6>( $1 - $499 )</h6>
+                        <h6>( $50 - $499 )</h6>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-sm-5 offset-sm-1">
                         <img
-                            className="Sponsors-img-sm"
-                            src="/sponsors/iewc.png"
+                            className="Sponsors-img"
+                            src="/sponsors/atc.png"
                             alt=""
                         />
-                        <img
-                            className="Sponsors-img-sm"
-                            src="/sponsors/batteries-plus.png"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img-sm"
-                            src="/sponsors/bliffert.png"
-                            alt=""
-                        />
+                        <h3 className="Sponsors-img text-center">
+                            Kiran Dhamodharan
+                        </h3>
                     </div>
                     <div className="col-sm-5">
                         <img
                             className="Sponsors-img"
-                            src="/sponsors/alpha-omega-cleaning.png"
-                            alt=""
-                        />
-                        <img
-                            className="Sponsors-img-sm"
-                            src="/sponsors/toolrite.png"
+                            src="/sponsors/ppd.jpg"
                             alt=""
                         />
                         <h3 className="Sponsors-img text-center">
-                            Boy Scouts Pack 41
-                        </h3>
-                        <h3 className="Sponsors-img text-center">
-                            Girl Scouts Troop 2042
+                            YiLing Tsi Lin
                         </h3>
                     </div>
                 </div>
