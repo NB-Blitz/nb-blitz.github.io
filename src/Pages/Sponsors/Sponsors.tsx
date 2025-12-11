@@ -105,7 +105,7 @@ class Sponsors extends React.Component {
                     <div className="col-sm-5 offset-sm-1">
                         <img
                             className="Sponsors-img"
-                            src="/sponsors/nokia-bell-labs.png"
+                            src="/sponsors/nbl.png"
                             alt=""
                         />
                         <img
